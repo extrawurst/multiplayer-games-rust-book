@@ -1,0 +1,10 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.3.13"
+tungstenite = "0.17"
+shared = { path = "../shared" }
+serde_json = "1.0"
